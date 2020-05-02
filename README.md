@@ -22,12 +22,12 @@ cd scripts
  train_new.txt - Train file with tab seperated words and tags \
  dev_new.txt   - Dev file with tab seperated words and tags \
  test_new.txt  - Test file with tab seperated words and tags \
- label_map.json- Universal mapping of chunk tags to integers \
+ label_map.json- Universal mapping of chunk tags to integers 
 
 
 ## Requiremets-
 ```bash
-pip install -r requirements.txt
+pip3 install -r requirements.txt
 ```
 You need to download GloVe file to the directory this cane be done by-
 ```bash
@@ -61,7 +61,7 @@ Every model will be stored along with the JSON which contains dev accuracy and t
 ```bash
 python3 run_constraint_learning.py --ratio 0.01 --ngram 3  --choice 2 --save_enable 1 --lr 0.001 --save_dir "./../constraint_models_2/"
 ```
-Code will be save under the save_dir. Every model which shows improvement on dev accuracy will be stored along with the JSON which contains dev accuracy and test_accuracy.
+Code will be saved under the save_dir. Every model which shows improvement on dev accuracy will be stored along with the JSON which contains dev accuracy and test_accuracy.
 
 
 ## Test-
