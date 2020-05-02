@@ -18,7 +18,7 @@ After cloning the directory-
 cd scripts
 ```
 
-### Data Files- \
+### Data Files- 
  train_new.txt - Train file with tab seperated words and tags \
  dev_new.txt   - Dev file with tab seperated words and tags \
  test_new.txt  - Test file with tab seperated words and tags \
