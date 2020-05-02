@@ -18,11 +18,11 @@ After cloning the directory-
 cd scripts
 ```
 
-### Data Files- \\
- train_new.txt - Train file with tab seperated words and tags \\
- dev_new.txt   - Dev file with tab seperated words and tags \\
- test_new.txt  - Test file with tab seperated words and tags \\
- label_map.json- Universal mapping of chunk tags to integers \\
+### Data Files- \
+ train_new.txt - Train file with tab seperated words and tags \
+ dev_new.txt   - Dev file with tab seperated words and tags \
+ test_new.txt  - Test file with tab seperated words and tags \
+ label_map.json- Universal mapping of chunk tags to integers \
 
 
 ## Requiremets-
@@ -40,7 +40,7 @@ unzip ./../data/glove\*.zip -d ./../data/
 
 
 ## Preprocess- 
-No explicit preprocessing required. \\
+No explicit preprocessing required. \
 **Note:** Processed data files are formed during the first run of the program for each training ratio and reused for anny subsequent experiments. Due to this the first run might take some additional time.
 
 
