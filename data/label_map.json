@@ -1,0 +1,1 @@
+"{\"B-NP\": 0, \"B-PP\": 1, \"I-NP\": 2, \"B-VP\": 3, \"I-VP\": 4, \"B-SBAR\": 5, \"O\": 6, \"B-ADJP\": 7, \"B-ADVP\": 8, \"I-ADVP\": 9, \"I-ADJP\": 10, \"I-SBAR\": 11, \"I-PP\": 12, \"B-PRT\": 13, \"B-LST\": 14, \"B-INTJ\": 15, \"I-INTJ\": 16, \"B-CONJP\": 17, \"I-CONJP\": 18, \"I-PRT\": 19, \"B-UCP\": 20, \"I-UCP\": 21, \"I-LST\": 22}"
