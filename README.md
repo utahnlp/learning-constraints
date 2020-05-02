@@ -35,7 +35,7 @@ wget http://nlp.stanford.edu/data/glove.840B.300d.zip -P ./../data/
 ```
 then
 ```bash
-unzip ./../data/glove\*.zip -d ./../data/
+unzip ./../data/glove*.zip -d ./../data/
 ```
 
 
