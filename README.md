@@ -1,4 +1,4 @@
-<p align="center"><img width="80%" src="logo.png" /></p>
+<p align="center"><img width="70%" src="logo.png" /></p>
 
 ---
 
@@ -71,10 +71,10 @@ python3 run_bilstmcrf_glove.py  --choice 2 \
 		                --ratio 1 \
 		                --mode "test" \
 		                --model_dir "./../models_glove/1/27_0.9549602724177072" \
-		         		--constraint_model_dir "./../constraint_models_2/choice_2/ngram_4/ratio_1.0/736_0.9435263687311395" \
-						--beam 10 \
-						--allow_constraint 1 \
-						--hidden_rect 10
+		         	--constraint_model_dir "./../constraint_models_2/choice_2/ngram_4/ratio_1.0/736_0.9435263687311395" \
+				--beam 10 \
+				--allow_constraint 1 \
+				--hidden_rect 10
 ```
 
 
